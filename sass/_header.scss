@@ -1,0 +1,20 @@
+.title {
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  //pq nao deu pra centralizar verticalmente aqui ???
+  padding-top: 60px;
+  &__header {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  &__text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24, 51px;
+    margin-top: 25px;
+    text-align: center;
+  }
+}
